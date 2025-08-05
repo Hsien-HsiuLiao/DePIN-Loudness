@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "native",
-    "slug": "native",
+    "name": "DePIN Loudness",
+    "slug": "depin-loudness",
     "version": "1.0.0",
-    "scheme": "com.turbo.example",
+    "scheme": "com.depin.loudness",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,14 +17,15 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.depin.loudness"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.turbo.example"
+      "package": "com.depin.loudness"
     },
     "web": {
       "favicon": "./assets/favicon.png",
