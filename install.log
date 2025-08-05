@@ -1,0 +1,32 @@
+$ npx create-turbo@latest -e with-react-native-web
+Need to install the following packages:
+create-turbo@2.5.5
+Ok to proceed? (y) y
+
+? Where would you like to create your Turborepo? ./turborepo
+? Which package manager do you want to use? yarn
+
+>>> Creating a new Turborepo with:
+
+Application packages
+ - apps/native
+ - apps/web
+Library packages
+ - packages/typescript-config
+ - packages/ui
+
+Note: This is a community-maintained example.
+If you experience a problem, please submit a pull request with a fix.
+GitHub Issues will be closed.
+
+>>> Success! Created your Turborepo at turborepo
+
+To get started:
+- Change to the directory: cd turborepo
+- Enable Remote Caching (recommended): npx turbo login
+   - Learn more: https://turborepo.com/remote-cache
+
+- Run commands with Turborepo:
+   - yarn run dev: Develop all apps and packages
+   - yarn run build: Build all apps and packages
+- Run a command twice to hit cache
